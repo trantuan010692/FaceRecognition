@@ -1,30 +1,30 @@
-# 人間の顔認証アプリ
+# FaceRecognition Application
 
-## 概要
-人間顔登録と認証する機能です。
+## Requirements
+App can recoginize face of employment with ID, who have registered data
     
 
-1. 言語
-    - バックエンド
-        - 言語: Python
-        - フレームワーク: Flask
-        - データベース: MongoDB
-    - フロントエンド
-        -　言語: Javascript
-        - フレームワーク: React
+1. Language
+    - Backend
+        - Language: Python
+        - Framework: Flask
+        - Database: MongoDB
+    - Frontend
+        -　Language: Javascript
+        - Framework: React
 
-2. 開発環境
+2. Enviroment
     - OS: windows 10 
-    - RAM: 4GB以上
+    - RAM: over 4GB
     - IDE: Pycharm、Visual Studio
-    - ソース管理: github使用
+    - Source manage: github
         
-3. 機能記載
-    - 必須機能
-        - IDと社員の顔登録
-        - 端末のカメラで登録した社員を認証出来る
-        - 認証できない場合、UNKNOWN
-    - 前進機能
+3. Function describe
+    - Required function
+        - Register face of employment with ID
+        - Can recoginize face of employment by camera
+        - If can not be recoginized face, error or message will appear
+    - Advanced function
         
-4. 他の要件
-    - 一人の認証スピードが５秒以下
+4. Other
+    - Recognize face speed is 5 seconds/ person less
